@@ -1,0 +1,26 @@
+curl -H "การให้สิทธิ์: token OAUTH-TOKEN" https://api.github.com/users/technoweenie -I
+HTTP / 1.1 200 OK
+ขอบเขต X-OAuth: repo ผู้ใช้
+X-Accepted-OAuth-Scopes: ผู้ใช้
+user:ผู้ใช้
+public_repo: ผู้ใช้
+repo: ผู้ใช้
+repo_deployment: ผู้ใช้
+repo:status: ผู้ใช้
+repo:invite: ผู้ใช้
+delete_repo: ผู้ใช้
+notifications: ผู้ใช้
+gist: ผู้ใช้
+read:repo_hook: ผู้ใช้
+write:repo_hook: ผู้ใช้
+admin:repo_hook: ผู้ใช้
+admin:org_hook: ผู้ใช้
+read:org: ผู้ใช้
+write:org: ผู้ใช้
+admin:org: ผู้ใช้
+read:public_key: ผู้ใช้
+write:public_key: ผู้ใช้
+admin:public_key: ผู้ใช้
+read:gpg_key: ผู้ใช้
+write:gpg_key: ผู้ใช้
+admin:gpg_key: ผู้ใช้
