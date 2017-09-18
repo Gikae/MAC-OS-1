@@ -1,0 +1,10 @@
+ACCESS_TOKEN = 2b104ff10b104ee5a376a15851c911ec
+ สิ่งแวดล้อม=ผลิต
+ LOCAL_USERNAME = ` whoami ` 
+REVISION = `ล็อกคอมไพล์ -n 1 --pretty =รูปแบบ: "% H" `
+
+https://api.rollbar.com/api/1/deploy/ \ 
+  -F access_token = $ ACCESS_TOKEN  \ 
+  -F environment = $ ENVIRONMENT  \ 
+  -F revision = $ REVISION  \ 
+  -F local_username = $ LOCAL_USERNAME
